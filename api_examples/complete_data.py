@@ -1,7 +1,7 @@
 from riotwatcher import LolWatcher, ApiError
 
 #Must enter Riot API to run
-lol_watcher = LolWatcher('RGAPI-9007adac-643b-40be-985a-cd8de200e315')
+lol_watcher = LolWatcher('XXX-XXX-XXX-XXX')
 na = 'na1'
 me = lol_watcher.summoner.by_name(na,'openbackpack')
 
